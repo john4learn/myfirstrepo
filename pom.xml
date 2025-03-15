@@ -8,6 +8,14 @@
   <artifactId>my-app</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <distributionManagement>
+        <repository>
+            <id>john4learn</id>
+            <name>myfirstrepo:maven</name>
+            <url>https://maven.pkg.github.com/john4learn/myfirstrepo/tree/maven</url>
+        </repository>
+    </distributionManagement>
+
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
